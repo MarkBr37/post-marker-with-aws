@@ -1,0 +1,6 @@
+{
+    "srverUrl":"https://server-of-post-marker.herokuapp.com/",
+    "post":"posts",
+    "images":"posts/images/",
+    "backGroundImage":"background00.JPG"
+}

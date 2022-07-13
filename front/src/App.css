@@ -1,0 +1,91 @@
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: url('https://server-of-post-marker.herokuapp.com/background00.JPG');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-attachment: fixed;
+  }
+
+/* footer{
+  margin: 400px;
+} */
+
+
+
+.posts{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  column-gap: 20px;
+  row-gap: 30px;
+  margin-bottom: 50px;
+}
+
+.footer-post{
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center; 
+}
+
+.footer-post > input{
+  border: 0;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.views{
+  padding-right: 3px;
+}
+
+.center-btn{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.center-nav{
+  justify-content: center !important;
+}
+
+.navbar-brand{
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+
+.fa-heart ,.fa-trash-can{
+  cursor: pointer;  
+}
+
+.fa-trash-can{
+  margin-left: 9px;
+}
+
+.card-footer{
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+@media only screen and (max-width: 412px) {
+  .footer-post > input{
+    order: 1;
+    
+  } 
+
+  .footer-post{
+    
+    column-gap: 10px;
+  }
+}
+
+/* @media only screen and (max-width: 309px) {
+ 
+} */
